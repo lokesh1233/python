@@ -1,6 +1,6 @@
 # tensor flow  
 import tensorflow as tf
-print('your running tensorflow %s' % str(tf.__version__))
+#print('your running tensorflow %s' % str(tf.__version__))
 sess = tf.InteractiveSession()
 a = tf.constant(23, name="const_a")
 b = tf.constant(34, name="cons_b")
