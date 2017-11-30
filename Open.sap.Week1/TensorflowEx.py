@@ -1,4 +1,4 @@
-# tensor flow 
+# tensor flow  
 import tensorflow as tf
 print('your running tensorflow %s' % str(tf.__version__))
 sess = tf.InteractiveSession()
